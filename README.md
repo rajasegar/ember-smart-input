@@ -15,10 +15,23 @@ Simple ideas for enhancing text input interactions
 
 * `ember install ember-smart-input`
 
-## Running
+## Usage
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+In your template:
+```hbs
+{{smart-input label="First Name" style="haruki"}}
+```
+
+which will get rendered as:
+```html
+<span class="input input--haruki">
+    <input class="input__field input__field--haruki" type="text" id="input-1" />
+    <label class="input__label input__label--haruki" for="input-1">
+        <span class="input__label-content input__label-content--haruki">First Name</span>
+    </label>
+</span>
+```
+
 
 ## Running Tests
 
@@ -31,3 +44,6 @@ Simple ideas for enhancing text input interactions
 * `ember build`
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+
+## Credits
+* [Mary Lou](https://github.com/crnacura)

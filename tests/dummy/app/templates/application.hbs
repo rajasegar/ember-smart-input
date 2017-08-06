@@ -1,6 +1,24 @@
-<h1>ember-smart-input</h1>
-<h2>Demo</h2>
-{{smart-input label="First Name" style="haruki"}}
-{{smart-input label="Last Name" style="haruki"}}
-{{smart-input label="Email" style="haruki"}}
-{{outlet}}
+<div class="container">
+	<header class="codrops-header">
+		<div class="codrops-links">
+			<a class="codrops-icon codrops-icon--prev" href="https://github.com/rajasegar/ember-smart-input" title="Github"><span>Github</span></a>
+			<a class="codrops-icon codrops-icon--drop" href="http://rajasegar.github.io/ember-smart-input/docs" title="Documentation"><span>Back to the Codrops a</span></a>
+		</div>
+		<h1>ember-smart-input <span>Simple ideas for enhancing text input interactions</span></h1>
+		<nav class="codrops-demos">
+      {{#link-to 'index' activeClass='current-demo'}}Set 1{{/link-to}}
+      {{#link-to 'set2' activeClass='current-demo'}}Set 2{{/link-to}}
+		</nav>
+	</header>
+  {{outlet}}
+  <!-- Related demos -->
+	<section class="content content--related">
+		<p>If you enjoyed this demo you might also like:</p>
+		<a class="media-item" href="http://rajasegar.github.io/ember-stylish-buttons/">
+			<h3 class="media-item__title">ember-stylish-buttons</h3>
+		</a>
+		<a class="media-item" href="http://rajasegar.github.io/ember-custom-select/">
+			<h3 class="media-item__title">ember-custom-select</h3>
+		</a>
+	</section>
+</div>

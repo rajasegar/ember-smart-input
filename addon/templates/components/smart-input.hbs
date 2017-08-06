@@ -1,4 +1,10 @@
-<input class="input__field input__field--{{style}}" id="input-1" type="text">
-<label class="input__label input__label--{{style}}" for="input-1">
+<input
+  id="input-{{elementId}}"
+  class="input__field input__field--{{style}}"
+  type="text"
+  onfocus={{action (mut filled) true}}
+  onblur={{action (mut filled) false}}
+>
+<label class="input__label input__label--{{style}} input__label--{{style}}-{{labelColor}}" for="input-{{elementId}}">
   <span class="input__label-content input__label-content--{{style}}">{{label}}</span>
 </label>
