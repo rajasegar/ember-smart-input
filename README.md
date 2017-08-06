@@ -1,10 +1,10 @@
 # ember-smart-input
 
-[![Build Status](https://travis-ci.org/rajasegar/ember-x-tabs.svg?branch=master)](https://travis-ci.org/rajasegar/ember-x-tabs) 
-[![npm](https://img.shields.io/npm/dm/ember-x-tabs.svg)](https://www.npmjs.com/package/ember-x-tabs)
-[![npm version](http://img.shields.io/npm/v/ember-x-tabs.svg?style=flat)](https://npmjs.org/package/ember-x-tabs "View this project on npm")
+[![Build Status](https://travis-ci.org/rajasegar/ember-smart-input.svg?branch=master)](https://travis-ci.org/rajasegar/ember-smart-input) 
+[![npm](https://img.shields.io/npm/dm/ember-smart-input.svg)](https://www.npmjs.com/package/ember-smart-input)
+[![npm version](http://img.shields.io/npm/v/ember-smart-input.svg?style=flat)](https://npmjs.org/package/ember-smart-input "View this project on npm")
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-[![EmberObserver](http://emberobserver.com/badges/ember-x-tabs.svg?branch=master)](http://emberobserver.com/addons/ember-x-tabs)
+[![EmberObserver](http://emberobserver.com/badges/ember-smart-input.svg?branch=master)](http://emberobserver.com/addons/ember-smart-input)
 
 Simple ideas for enhancing text input interactions 
 
