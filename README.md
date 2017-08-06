@@ -1,15 +1,19 @@
 # ember-smart-input
 
-This README outlines the details of collaborating on this Ember addon.
+[![Build Status](https://travis-ci.org/rajasegar/ember-x-tabs.svg?branch=master)](https://travis-ci.org/rajasegar/ember-x-tabs) 
+[![npm](https://img.shields.io/npm/dm/ember-x-tabs.svg)](https://www.npmjs.com/package/ember-x-tabs)
+[![npm version](http://img.shields.io/npm/v/ember-x-tabs.svg?style=flat)](https://npmjs.org/package/ember-x-tabs "View this project on npm")
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+[![EmberObserver](http://emberobserver.com/badges/ember-x-tabs.svg?branch=master)](http://emberobserver.com/addons/ember-x-tabs)
 
+Simple ideas for enhancing text input interactions 
 
+## Demo
+[Demo](http://rajasegar.github.io/ember-smart-input)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-smart-input`
-* `npm install`
-* `bower install`
+* `ember install ember-smart-input`
 
 ## Running
 
