@@ -14,5 +14,8 @@ export default Component.extend({
   inputStyle: computed('style', function() {
     return `input--${this.get('style')}`;
   }),
+  inputLabelColor: computed('labelColor', function() {
+    return this.get('labelColor') ? `input__label--${this.get('style')}-${this.get('labelColor')}` : null;
+  }),
   filled: false
 });
