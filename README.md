@@ -31,6 +31,12 @@ which will get rendered as:
     </label>
 </span>
 ```
+For validation indicators with label color changes:
+```hbs
+  {{smart-input label="Name" style="hoshi" labelColor="color-1"}}
+  {{smart-input label="Name" style="hoshi" labelColor="color-2"}}
+  {{smart-input label="Name" style="hoshi" labelColor="color-3"}}
+```
 
 
 ## Running Tests
