@@ -17,5 +17,23 @@ export default Component.extend({
   inputLabelColor: computed('labelColor', function() {
     return this.get('labelColor') ? `input__label--${this.get('style')}-${this.get('labelColor')}` : null;
   }),
-  filled: false
+  inputId: computed('elementId', function() {
+    return `input-${this.get('elementId')}`;
+  }),
+  inputClass: computed('style', function() {
+    return `input__field input__field--${this.get('style')}`;
+  }),
+  filled: false,
+  inputVal: '',
+  actions: {
+    fill() {
+      this.set('filled', true);
+    },
+    unfill() {
+      let _inputVal = this.get('inputVal').trim();
+      if(_inputVal === "") {
+        this.set('filled', false);
+      }
+    }
+  }
 });

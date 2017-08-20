@@ -1,10 +1,11 @@
-<input
-  id="input-{{elementId}}"
-  class="input__field input__field--{{style}}"
+{{input
+  id=inputId
+  class=inputClass
   type="text"
-  onfocus={{action (mut filled) true}}
-  onblur={{action (mut filled) false}}
->
+  value=inputVal
+  focus-in="fill"
+  focus-out="unfill"
+}}
 <label class="input__label input__label--{{style}} {{inputLabelColor}}" for="input-{{elementId}}">
   <span class="input__label-content input__label-content--{{style}}">{{label}}</span>
 </label>
