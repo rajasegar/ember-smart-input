@@ -3,7 +3,8 @@
 [![Build Status](https://travis-ci.org/rajasegar/ember-smart-input.svg?branch=master)](https://travis-ci.org/rajasegar/ember-smart-input) 
 [![npm](https://img.shields.io/npm/dm/ember-smart-input.svg)](https://www.npmjs.com/package/ember-smart-input)
 [![npm version](http://img.shields.io/npm/v/ember-smart-input.svg?style=flat)](https://npmjs.org/package/ember-smart-input "View this project on npm")
-[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+[![dependencies Status](https://david-dm.org/rajasegar/ember-smart-input/status.svg)](https://david-dm.org/rajasegar/ember-smart-input)
+[![devDependencies Status](https://david-dm.org/rajasegar/ember-smart-input/dev-status.svg)](https://david-dm.org/rajasegar/ember-smart-input?type=dev)
 [![EmberObserver](http://emberobserver.com/badges/ember-smart-input.svg?branch=master)](http://emberobserver.com/addons/ember-smart-input)
 
 Simple ideas for enhancing text input interactions 
