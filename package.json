@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^1.1.0",
+    "auto-changelog": "^1.16.2",
     "broccoli-asset-rev": "^2.7.0",
     "ember-addon-starterkit": "^0.1.11",
     "ember-ajax": "^3.1.0",
@@ -58,6 +59,12 @@
         "preset": "ember",
         "infile": "CHANGELOG.md"
       }
+    },
+    "hooks": {
+      "before:release": "npx auto-changelog -p"
+    },
+    "git": {
+      "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/release-it/release-it/master/conf/changelog-compact.hbs"
     }
   },
   "engines": {
