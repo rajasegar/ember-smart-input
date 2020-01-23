@@ -1,3 +1,5 @@
+## [1.0.7](https://github.com/rajasegar/ember-smart-input/compare/1.0.6...1.0.7) (2020-01-23)
+
 ### Changelog
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
