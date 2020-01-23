@@ -1,3 +1,5 @@
+## [1.0.5](https://github.com/rajasegar/ember-smart-input/compare/1.0.4...1.0.5) (2020-01-23)
+
 ## [1.0.4](https://github.com/rajasegar/ember-smart-input/compare/1.0.3...1.0.4) (2020-01-23)
 
 
