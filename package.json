@@ -18,7 +18,8 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test"
+    "test": "ember test",
+    "release": "release-it"
   },
   "dependencies": {
     "ember-cli-babel": "^6.16.0",
@@ -47,6 +48,7 @@
     "ember-source": "~3.3.1",
     "ember-welcome-page": "^3.2.0",
     "loader.js": "^4.7.0",
+    "release-it": "^12.4.3",
     "yuidoc-ember-theme": "^2.0.1"
   },
   "engines": {
