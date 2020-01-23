@@ -26,6 +26,7 @@
     "ember-cli-htmlbars": "^3.0.0"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^1.1.0",
     "broccoli-asset-rev": "^2.7.0",
     "ember-addon-starterkit": "^0.1.11",
     "ember-ajax": "^3.1.0",
@@ -50,6 +51,14 @@
     "loader.js": "^4.7.0",
     "release-it": "^12.4.3",
     "yuidoc-ember-theme": "^2.0.1"
+  },
+  "release-it": {
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "ember",
+        "infile": "CHANGELOG.md"
+      }
+    }
   },
   "engines": {
     "node": ">= 4"
