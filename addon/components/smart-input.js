@@ -1,4 +1,4 @@
-import { computed } from '@ember/object';
+import { computed, action } from '@ember/object';
 import Component from '@ember/component';
 import layout from '../templates/components/smart-input';
 
@@ -21,15 +21,16 @@ export default Component.extend({
   }),
   filled: false,
   inputVal: '',
-  actions: {
+  @action
     fill() {
       this.set('filled', true);
     },
+
+  @action
     unfill() {
       let _inputVal = this.get('inputVal').trim();
       if(_inputVal === "") {
         this.set('filled', false);
       }
-    }
   }
 });

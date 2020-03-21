@@ -1,11 +1,11 @@
-{{input
-  id=inputId
-  class=inputClass
+<Input
+id={{this.inputId}}
+class={{this.inputClass}}
   type="text"
-  value=inputVal
-  focus-in="fill"
-  focus-out="unfill"
-}}
-<label class="input__label input__label--{{style}} {{inputLabelColor}}" for="input-{{elementId}}">
-  <span class="input__label-content input__label-content--{{style}}">{{label}}</span>
+  value={{this.inputVal}}
+  {{ on "focus" this.fill}}
+  {{ on "blur" this.unfill}}
+  />
+<label class="input__label input__label--{{@style}} {{this.inputLabelColor}}" for="input-{{this.elementId}}">
+  <span class="input__label-content input__label-content--{{@style}}">{{@label}}</span>
 </label>
