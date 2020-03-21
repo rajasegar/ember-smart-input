@@ -6,8 +6,8 @@
 		</div>
 		<h1>ember-smart-input <span>Simple ideas for enhancing text input interactions</span></h1>
 		<nav class="codrops-demos">
-      {{#link-to 'index' activeClass='current-demo'}}Set 1{{/link-to}}
-      {{#link-to 'set2' activeClass='current-demo'}}Set 2{{/link-to}}
+      <LinkTo @route="index" @activeClass="current-demo">Set 1</LinkTo>
+      <LinkTo @route="set2" @activeClass="current-demo">Set 2</LinkTo>
 		</nav>
 	</header>
   {{outlet}}

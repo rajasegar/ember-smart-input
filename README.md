@@ -50,7 +50,8 @@ For validation indicators with label color changes:
 
 * `ember build`
 
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+See the [Contributing](CONTRIBUTING.md) guide for details.
+
 
 ## Credits
 * [Mary Lou](https://github.com/crnacura)
