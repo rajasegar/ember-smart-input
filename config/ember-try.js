@@ -1,6 +1,6 @@
 'use strict';
 
-const getChannelURL = require('ember-source-channel-url');
+const getChannelURL = require('ember-source-channel-url'); //eslint-disable-line
 
 module.exports = async function() {
   return {
