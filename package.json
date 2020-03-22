@@ -1,6 +1,6 @@
 {
   "name": "ember-smart-input",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Simple ideas for enhancing text input interactions.",
   "keywords": [
     "ember-addon",
@@ -16,7 +16,7 @@
   },
   "repository": "https://github.com/rajasegar/ember-smart-input",
   "scripts": {
-     "build": "ember build --environment=production",
+    "build": "ember build --environment=production",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
     "start": "ember serve",
